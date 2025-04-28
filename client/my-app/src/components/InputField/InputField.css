@@ -1,0 +1,31 @@
+.input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+
+.input-field input {
+  border: none;
+  outline: 2px solid #3a59d1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-field label {
+  background-color: white;
+  padding: 5px;
+  margin-bottom: -10px;
+  margin-left: 20px;
+  z-index: 2;
+  width: max-content;
+  font-size: 0.9rem;
+  color: #3a59d1;
+}
+
+.input-field--error input {
+  outline: 2px solid #df2929;
+}
+
+.input-field--error label {
+  color: #df2929;
+}

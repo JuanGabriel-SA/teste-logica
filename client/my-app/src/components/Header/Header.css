@@ -1,0 +1,41 @@
+header {
+    background-color: #3a59d1;
+    width: 100%;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: auto;
+}
+
+.header__link--active {
+    font-weight: 600;
+    color: rgb(187, 213, 242);
+    text-decoration: underline;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+
+.header__link {
+    cursor: pointer;
+    transition: ease-in-out 100ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    opacity: 0.7;
+}
+
+.header__search {
+    margin-left: auto;
+}

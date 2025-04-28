@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.default-table {
+  max-height: 80vh;
+  margin-bottom: auto;
+  max-width: 90vw;
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home__action-btns {
+  display: flex;
+  column-gap: 10px;
+}
+
+.default-table thead {
+  background-color: #f5f5f5;
+}
+
+.default-table th,
+.default-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.default-table th {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.default-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
