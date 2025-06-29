@@ -1,4 +1,4 @@
-# 📚 Teste Lógica Soluções Integradas
+# 📚 App Fullstack com Express e React
 
 Aplicativo Fullstack desenvolvido em **React + TypeScript + Vite + TailwindCSS** (Client) e **Express.js** (Server), para gerenciar usuários obtidos da API [random-data-api](https://random-data-api.com/documentation).
 
